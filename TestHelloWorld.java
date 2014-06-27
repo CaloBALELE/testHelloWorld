@@ -6,5 +6,12 @@ public class TestHelloWorld {
 		
 		System.out.println("Hello Universe!!!");
 		
+		// above code is added by ARC-tester
+		String str = "*";
+		for (int i = 0; i < 10; i++) {
+			System.out.println(str);
+			str += "*";
+		}
+		
 	}
 }
